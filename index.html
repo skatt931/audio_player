@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Audio player</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div id="container">
+		<div id="audio-img">
+			<img src="" alt="" class="cover">
+		</div>
+
+
+		<div id="audio-palyer">
+			<div id="audio-info">
+				<span class="artist"></span> - <span class="title"></span>
+			</div>
+		</div>
+
+		<input type="range" id="volume" min="0" max="10" value="5">
+		<br>
+
+		<div id="audio-buttons">
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+		</div>
+
+		<div class="clearfix"></div>
+
+		<div id="tracker">
+			<div id="progressbar">
+				<span id="progress"></span>
+			</div>
+			<span id="duration"></span>
+		</div>
+		<div class="clearfix"></div>
+		<ul id="playlist">
+			<li song="01. Віддай мені (Свою любов).mp3" cover="cover1.jpg" artist="Океан Ельзи">01. Віддай мені (Свою любов).mp3</li>
+			<li song="02. Не йди.mp3" cover="cover1.jpg" artist="Океан Ельзи">02. Не йди.mp3</li>
+			<li song="03. Джерело.mp3" cover="cover1.jpg" artist="Океан Ельзи">03. Джерело.mp3</li>
+			<li song="04. Сонце.mp3" cover="cover1.jpg" artist="Океан Ельзи">04. Сонце.mp3</li>
+			<li song="05. Мить.mp3" cover="cover1.jpg" artist="Океан Ельзи">05. Мить.mp3</li>
+			<li song="06. Не твоя війна.mp3" cover="cover1.jpg" artist="Океан Ельзи">06. Не твоя війна.mp3</li>
+			<li song="07. Еверест.mp3" cover="cover1.jpg" artist="Океан Ельзи">07. Еверест.mp3</li>
+			<li song="08. Хтось в небо летить.mp3" cover="cover1.jpg" artist="Океан Ельзи">08. Хтось в небо летить.mp3</li>
+			<li song="09. Життя починається знов.mp3" cover="cover1.jpg" artist="Океан Ельзи">09. Життя починається знов.mp3</li>
+			<li song="10. Осінь.mp3" cover="cover1.jpg" artist="Океан Ельзи">10. Осінь.mp3</li>
+			<li song="11. Без меж.mp3" cover="cover1.jpg" artist="Океан Ельзи">11. Без меж.mp3</li>
+		</ul>
+		
+	</div>
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
