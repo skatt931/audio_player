@@ -10,7 +10,8 @@ body {
 	font-size: 13px;
 	line-height: 1.5em;
 	color: #fff;
-	background: url("../images/background.png")
+	background: url("../images/background.png");
+
 }
 
 .clearfix {
